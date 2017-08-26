@@ -7,7 +7,7 @@ public class SQLConnector {
     Connection conn = null ;
     public  SQLConnector() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName(" com.mysql.jdbc.Driver ");
             Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/cart?characterEncoding=UTF-8",
                     "root", "123");
         }catch(Exception e){
